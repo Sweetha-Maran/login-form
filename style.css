@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #bad7d5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#loginpage {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    height: 350px;
+    border-radius: 2px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+#loginpage h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#loginpage input {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    margin-top: 25px;
+    border-radius: 6px;
+   
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+
+
+
+#loginpage button {
+    width: 50%;
+    padding: 10px;
+    background: #020217;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+
+
+#loginpage p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+#loginpage a {
+    color: #9797a0;
+    text-decoration: none;
+}
+
+#loginpage a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 430px) {
+    #loginpage {
+        padding: 20px;
+        max-width: 90%;
+    }
+}
+
+
+/*  */
+ body {
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  width: 100%;
+  max-width: 400px;
+}
+
+.btn-custom {
+  background-color: #ff9800;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #e68900;
+}
+
+.table {
+  background-color: white;
+}
+
+textarea {
+  resize: none;
+}
